@@ -62,6 +62,11 @@ Borrow out = A'Bin + A'B + BBin
 4.Compile, simulate, implement, and program the design similarly to the full adder.
 ```
 **Program:**
+
+Developed by: THANGAPAZHAM P
+
+RegisterNumber: 25017581
+
 ```
 module F_A_F_S(
     input A, B, Cin,
@@ -75,9 +80,6 @@ module F_A_F_S(
     assign BORROW = (~A & B) | (Bin & ~(A ^ B));
 endmodule
 ```
-Developed by: THANGAPAZHAM P
-RegisterNumber: 25017581
-
 **RTL Schematic**
 
 <img width="1035" height="687" alt="image" src="https://github.com/user-attachments/assets/dda913db-de11-48d7-b16f-fdf3b707f4ca" />
